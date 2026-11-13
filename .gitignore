@@ -1,0 +1,10 @@
+@"
+node_modules/
+env/
+venv/
+__pycache__/
+.env
+LaptopSelller/android/local.properties
+LaptopSelller/android/.gradle/
+LaptopSelller/android/app/build/
+"@ | Set-Content -Path ".gitignore" -Encoding UTF8
